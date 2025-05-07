@@ -1,0 +1,47 @@
+/* General styles for all images */
+img {
+    width: 100%;
+    height: auto; /* Ensure the aspect ratio is maintained */
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Smooth corners for a more polished look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+/* For blog post images */
+.blog__thumb img {
+    object-fit: cover; /* Ensure images cover the container without distortion */
+    height: 250px; /* Set a consistent height for blog images */
+    border-radius: 8px;
+}
+
+/* For images in the comments section */
+.blog__comments-thumb img {
+    width: 60px; /* Smaller size for profile images */
+    height: 60px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* For related posts or sidebar images */
+.footer__post-thumb img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Styling for images inside the sidebar search */
+.sidebar__search img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+/* Ensure consistent spacing between multiple images */
+.blog__item, .sidebar__tab {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,33 @@
+{
+    "en": {
+      "title": "Spiritual Serenity at Kesariya Ji Jain Temple",
+      "thumbnail": "assets/images/thumbnails/kesariya-ji-temple.jpg",
+      "subtitle": "An ancient Jain pilgrimage nestled in the Aravallis",
+      "date": "2025-05-06",
+      "content": [
+        { "type": "text", "value": "Kesariya Ji Jain Temple, located in the Pali district of Rajasthan, is a sacred site for devotees of Lord Rishabhdev, the first Tirthankara of Jainism." },
+        { "type": "image", "value": "assets/images/content/kesariya-temple-front.jpg" },
+        { "type": "text", "value": "Also known as Rishabhdev Temple, the site is famed for its intricate marble carvings, peaceful surroundings, and spiritual significance." },
+        { "type": "image", "value": "assets/images/content/kesariya-carvings.jpg" },
+        { "type": "text", "value": "Surrounded by lush hills and scenic landscapes, Kesariya Ji offers a retreat for both the spirit and the eyes." },
+        { "type": "image", "value": "assets/images/content/kesariya-ji-scenic-view.jpg" },
+        { "type": "text", "value": "Whether you're seeking blessings or historical exploration, a visit to Kesariya Ji Temple is enriching." }
+      ]
+    },
+    "hi": {
+      "title": "केसरियाजी जैन मंदिर में आध्यात्मिक शांति",
+      "thumbnail": "assets/images/thumbnails/kesariya-ji-temple.jpg",
+      "subtitle": "अरावली की पहाड़ियों में बसा एक प्राचीन जैन तीर्थ",
+      "date": "2025-05-06",
+      "content": [
+        { "type": "text", "value": "केसरियाजी जैन मंदिर, राजस्थान के पाली जिले में स्थित, भगवान ऋषभदेव के भक्तों के लिए एक पवित्र स्थान है।" },
+        { "type": "image", "value": "assets/images/content/kesariya-temple-front.jpg" },
+        { "type": "text", "value": "ऋषभदेव मंदिर के नाम से भी जाना जाता है, यह मंदिर अपनी नक्काशी, शांति और आध्यात्मिक महत्व के लिए प्रसिद्ध है।" },
+        { "type": "image", "value": "assets/images/content/kesariya-carvings.jpg" },
+        { "type": "text", "value": "हरियाली और सुंदर पहाड़ियों से घिरा यह स्थान मन को सुकून देने वाला अनुभव प्रदान करता है।" },
+        { "type": "image", "value": "assets/images/content/kesariya-ji-scenic-view.jpg" },
+        { "type": "text", "value": "चाहे आप आध्यात्मिक आशीर्वाद चाहते हों या ऐतिहासिक यात्रा, केसरियाजी का दौरा अविस्मरणीय है।" }
+      ]
+    }
+  }
+  

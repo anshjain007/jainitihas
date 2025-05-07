@@ -1,0 +1,32 @@
+<div class="blog blog-style2 padding--top padding--bottom bg-light">
+    <div class="container">
+      <div class="section__wrapper">
+        <div class="row g-4 justify-content-center">
+          <div *ngFor="let blog of blogs" class="col-xl-4 col-lg-6 col-12">
+            <div class="blog__item">
+              <div class="blog__inner">
+                <div class="blog__thumb">
+                  <a><img [src]="blog.image" alt="blog thumb"></a>
+                </div>
+                <div class="blog__content">
+                  <a [routerLink]="['/blogDetails', blog.id]">
+                    <h5>{{ blog.title }}</h5>
+                  </a>
+                  <ul class="blog__content-metapost">
+                    <li><i class="far fa-calendar"></i> {{ blog.date }}</li>
+                    <li><i class="fas fa-user"></i> {{ blog.author }}</li>
+                  </ul>
+                  <p>{{ blog.description }}...</p>
+                  <a [routerLink]="['/blogDetails', blog.id]" class="default-btn move-right">
+                    <span>Read More</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination can be added here -->
+      </div>
+    </div>
+  </div>
+  

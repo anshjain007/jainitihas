@@ -21,23 +21,44 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+               "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/animate.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/all.min.css",
+              "src/assets/css/swiper.min.css",
+              "src/assets/css/lightcase.css",
+              "src/assets/css/style.min.css"
+             
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.6.0.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/waypoints.min.js",
+              "src/assets/js/swiper.min.js",
+              "src/assets/js/lightcase.js",
+              "src/assets/js/isotope.pkgd.min.js",
+              "src/assets/js/donate-range.js",
+              "src/assets/js/jquery.counterup.min.js",
+              "src/assets/js/wow.js",
+              "src/assets/js/custom.js"
+          
+
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                "maximumWarning": "1.2mb",
+"maximumError": "1.3mb"
                 },
                 {
                   "type": "anyComponentStyle",
