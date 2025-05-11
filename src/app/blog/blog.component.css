@@ -1,0 +1,12 @@
+.blog__thumb img {
+    width: 100%;              /* Make image take full width of container */
+    height: 200px;            /* Set a fixed height */
+    object-fit: cover;        /* Crop image to cover the container without distortion */
+    border-radius: 8px;       /* Optional: slightly rounded corners */
+    transition: transform 0.3s ease;
+  }
+  
+  .blog__thumb img:hover {
+    transform: scale(1.03);   /* Slight zoom effect on hover */
+  }
+  
