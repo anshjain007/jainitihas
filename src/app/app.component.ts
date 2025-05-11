@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
+import { filter } from 'rxjs';
 // import { HeaderComponent } from './header/header.component';
 // import { HeaderComponent } from "./header/header.component";
 
@@ -11,5 +12,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'jain_itihas';
+  constructor(private router: Router) {
+    this.router.events.pipe(
+      filter((event: any) => event instanceof NavigationEnd)
+    ).subscribe(() => {
+      window.scrollTo(0, 0);
+    });
+  }
 }

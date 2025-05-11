@@ -21,7 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-               "src/assets",
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -34,8 +34,6 @@
               "src/assets/css/swiper.min.css",
               "src/assets/css/lightcase.css",
               "src/assets/css/style.min.css"
-             
-              
             ],
             "scripts": [
               "src/assets/js/jquery-3.6.0.min.js",
@@ -48,8 +46,6 @@
               "src/assets/js/jquery.counterup.min.js",
               "src/assets/js/wow.js",
               "src/assets/js/custom.js"
-          
-
             ]
           },
           "configurations": {
@@ -57,8 +53,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                "maximumWarning": "1.2mb",
-"maximumError": "1.3mb"
+                  "maximumWarning": "1.2mb",
+                  "maximumError": "1.3mb"
                 },
                 {
                   "type": "anyComponentStyle",

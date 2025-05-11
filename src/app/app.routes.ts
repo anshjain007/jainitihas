@@ -11,13 +11,16 @@ export const routes: Routes = [
       path: '',
       component: LayoutComponent,
       children: [
-        { path: '', component: HomeComponent },
-        { path: 'gallery', component: GalleryComponent },
-        { path: 'books', component: BooksComponent },
-        { path: 'blog', component: BlogComponent },
-        { path: 'blogDetails/:id', component: BlogDetailComponent },
+        { path: '', component: HomeComponent ,runGuardsAndResolvers: 'always' },
+        { path: 'gallery', component: GalleryComponent ,runGuardsAndResolvers: 'always' },
+        { path: 'books', component: BooksComponent ,runGuardsAndResolvers: 'always' },
+        { path: 'blog', component: BlogComponent ,runGuardsAndResolvers: 'always' },
+        { path: 'blogDetails/:id', component: BlogDetailComponent ,runGuardsAndResolvers: 'always' },
         { path: '', redirectTo: 'home', pathMatch: 'full' }, // Default route
       ],
     },
     { path: '**', redirectTo: 'home' } // Wildcard route for 404 handling
+
+
   ];
+  

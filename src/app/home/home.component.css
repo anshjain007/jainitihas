@@ -9,3 +9,51 @@
 .gallery__thumb img:hover {
     transform: scale(1.05); /* Optional: zoom effect on hover */
 }
+
+
+.single-blog {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.blog__item {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.blog__thumb img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog__content {
+    padding: 20px;
+}
+
+.blog__title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.blog__desc {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* .default-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff !important;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+} */
+
+/* .default-btn:hover {
+    background-color: #0056b3;
+} */
