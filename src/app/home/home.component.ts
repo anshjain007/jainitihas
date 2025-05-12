@@ -14,7 +14,7 @@ export class HomeComponent {
   blogs = [
     {
       id: 1,
-      image: "../../assets/blog/kesariyaji1.jpg",
+      image: "../../assets/blog/kesariyaji/01.jpg",
       title: 'Kesariya ji',
       day: '09',
       month: 'Nov',
@@ -27,7 +27,7 @@ export class HomeComponent {
     },
     {
       id: 2,
-      image: "../../assets/blog/kesariyaji1.jpg",
+      image: "../../assets/blog/kesariyaji/01.jpg",
       title: 'Kesariya ji',
       day: '09',
       month: 'Nov',
@@ -40,7 +40,7 @@ export class HomeComponent {
     },
     {
       id: 3,
-      image: "../../assets/blog/kesariyaji1.jpg",
+      image: "../../assets/blog/kesariyaji/01.jpg",
       title: 'Kesariya ji',
       day: '09',
       month: 'Nov',

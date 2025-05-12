@@ -16,13 +16,7 @@ img {
 }
 
 /* For images in the comments section */
-.blog__comments-thumb img {
-    width: 60px; /* Smaller size for profile images */
-    height: 60px;
-    border-radius: 50%; /* Make it circular */
-    object-fit: cover;
-    margin-right: 15px;
-}
+
 
 /* For related posts or sidebar images */
 .footer__post-thumb img {
@@ -31,6 +25,7 @@ img {
     border-radius: 8px;
     object-fit: cover;
 }
+
 
 /* Styling for images inside the sidebar search */
 .sidebar__search img {
@@ -41,7 +36,63 @@ img {
     object-fit: cover;
 }
 
+
 /* Ensure consistent spacing between multiple images */
 .blog__item, .sidebar__tab {
     margin-bottom: 30px;
 }
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .blog__content {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #333;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  }
+  
+  .blog__content p {
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Image Grid Container */
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 20px 0;
+    justify-content: center;
+  }
+  
+  /* Image Style (Thumbnail Style) */
+  .image-grid img {
+    width: 100%;
+    max-width: calc(48% - 10px); /* 2 images per row on average screens */
+    height: 200px; /* Fixed height */
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-grid img:hover {
+    transform: scale(1.05);
+  }
+  
+  

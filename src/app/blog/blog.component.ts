@@ -15,7 +15,7 @@ export class BlogComponent {
     {
       "id": 1,
       "title": "Shree 1008 Kesariya Ji Jain Trith",
-      "image": "../../assets/blog/kesariyaji1.jpg",
+      "image": "../../assets/blog/kesariyaji/01.jpg",
       "date": "06 May 2025",
       "author": "jainItihas",
       "description": "Nestled amidst tranquil surroundings, the Shree 1008 Kesariya Ji Jain Tirth stands as a beacon of spirituality and devotion. This sacred pilgrimage site reflects centuries of Jain heritage, inviting devotees to immerse themselves in prayers, rituals, and the timeless wisdom of Tirthankaras. The serenity of the temple, coupled with the intricate artistry of its architecture, offers a divine experience where the soul finds peace and clarity on the path of non-violence, truth, and liberation.",
