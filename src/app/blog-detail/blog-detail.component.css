@@ -72,27 +72,37 @@ h2 {
   }
   
   /* Image Grid Container */
-  .image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin: 20px 0;
-    justify-content: center;
-  }
-  
-  /* Image Style (Thumbnail Style) */
-  .image-grid img {
+  /* ::ng-deep .blog-contentimg img {
     width: 100%;
-    max-width: calc(48% - 10px); /* 2 images per row on average screens */
-    height: 200px; /* Fixed height */
+    height: 200px;
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .image-grid img:hover {
+  ::ng-deep .blog-contentimg img:hover {
+    transform: scale(1.05);
+  } */
+
+
+  ::ng-deep .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  ::ng-deep .image-grid img {
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  ::ng-deep .image-grid img:hover {
     transform: scale(1.05);
   }
   
+
   
