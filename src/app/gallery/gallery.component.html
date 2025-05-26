@@ -1,18 +1,36 @@
-<div class="row g-3 grid">
-  @for (img of galleryImages; track img) {
-    <div class="col-lg-4 col-sm-6 col-12">
-      <div class="gallery__item">
-        <div class="gallery__inner">
-          <div class="gallery__thumb">
-            <img [src]="img" alt="gallery-thumb" class="w-100" />
-          </div>
-          <div class="gallery__content text-center">
-            <a [href]="img" data-rel="lightcase" class="gallery__icon">
-              <i class="fas fa-plus"></i>
-            </a>
+@if (!selectedTirthankar) {
+  <h2>Select a Tirthankar</h2>
+  <div class="row g-3">
+    @for ( tirthankar of tirthankars; track tirthankar.name) {
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+        <div class="folder" (click)="selectTirthankar(tirthankar)" style="cursor:pointer; border:1px solid #ccc; padding: 1rem; text-align:center; border-radius:8px;">
+          <i class="fas fa-folder fa-3x" style="color:#f7b731;"></i>
+          <div class="folder-name mt-2">{{ tirthankar.name }}</div>
+        </div>
+      </div>
+    }
+  </div>
+}
+
+@if (selectedTirthankar) {
+  <button class="btn btn-secondary mb-3" (click)="backToFolders()">← Back to Folders</button>
+  <h2>{{ selectedTirthankar.name }} Gallery</h2>
+  <div class="row g-3">
+    @for (img of selectedTirthankar.images; track img) {
+      <div class="col-lg-4 col-sm-6 col-12">
+        <div class="gallery__item">
+          <div class="gallery__inner">
+            <div class="gallery__thumb">
+              <img [src]="img" alt="{{ selectedTirthankar.name }}" class="w-100" style="height: 200px; object-fit: cover; border-radius: 8px;" />
+            </div>
+            <div class="gallery__content text-center">
+              <a [href]="img" data-rel="lightcase" class="gallery__icon">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  }
-</div>
+    }
+  </div>
+}

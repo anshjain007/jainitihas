@@ -9,11 +9,7 @@ img {
 }
 
 /* For blog post images */
-.blog__thumb img {
-    object-fit: cover; /* Ensure images cover the container without distortion */
-    height: 250px; /* Set a consistent height for blog images */
-    border-radius: 8px;
-}
+
 
 /* For images in the comments section */
 
