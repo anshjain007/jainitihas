@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { BooksComponent } from './books/books.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
     {
@@ -16,6 +17,7 @@ export const routes: Routes = [
         { path: 'books', component: BooksComponent ,runGuardsAndResolvers: 'always' },
         { path: 'blog', component: BlogComponent ,runGuardsAndResolvers: 'always' },
         { path: 'blogDetails/:id', component: BlogDetailComponent ,runGuardsAndResolvers: 'always' },
+          { path: 'contact', component: ContactComponent ,runGuardsAndResolvers: 'always' },
         { path: '', redirectTo: 'home', pathMatch: 'full' }, // Default route
       ],
     },

@@ -5,7 +5,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-blog',
   standalone: true,
-  imports: [RouterLink,CommonModule],
+  imports: [RouterLink, CommonModule],
   templateUrl: './blog.component.html',
   styleUrl: './blog.component.css'
 })
@@ -16,9 +16,9 @@ export class BlogComponent {
       "id": 1,
       "title": "Shree 1008 Kesariya Ji Jain Trith",
       "image": "../../assets/blog/kesariyaji/kesariya-thumb.jpg",
-      "date": "06 May 2025",
+      "date": "31 May 2025",
       "author": "jainItihas",
-      "description": "Nestled amidst tranquil surroundings, the Shree 1008 Kesariya Ji Jain Tirth stands as a beacon of spirituality and devotion. This sacred pilgrimage site reflects centuries of Jain heritage, inviting devotees to immerse themselves in prayers, rituals, and the timeless wisdom of Tirthankaras. The serenity of the temple, coupled with the intricate artistry of its architecture, offers a divine experience where the soul finds peace and clarity on the path of non-violence, truth, and liberation.",
+      "description": "Rishabhdev temple is situated 65 km away on National Highway No. 8, south of Udaipur district of Rajasthan.This temple is also called Kesariyaji because a lot of saffron is offered on the original idol main deity",
       "read_more_link": "blog-single.html"
     },
     // {
