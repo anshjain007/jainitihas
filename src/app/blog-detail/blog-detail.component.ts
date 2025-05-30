@@ -93,7 +93,7 @@ west there is a Sahasrakuta Jinalaya with 1008
 idols </b></p>
 
 
-<h2> *Inscriptions of Kesariya ji</h2>
+<h2>Inscriptions of Kesariya ji</h2>
 
 
 
@@ -200,7 +200,7 @@ Teej, which mentions Moolsangh
 Saraswatigachchh Balatkargan and Kundakunda
 Swami Digambar Jain Acharya</b></p>
 
-<h2>*<b>The Flagstaff Massacre</b></h2>
+<h2><b>The Flagstaff Massacre</b></h2>
 
 <p>
   <b>The fame and grandeur of the temple and the management and unbroken authority of this temple</b>
