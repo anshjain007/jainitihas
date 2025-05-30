@@ -33,13 +33,13 @@
         <div class="swiper-slide">
             <div class="banner" style="background-image: url(assets/images/banner/10.jpg);">
                 <div class="container">
-                    <div class="banner__content ">
+                    <div class="banner__content">
 
-                        <!-- <a href="#" class="default-btn move-right"><span>GET HELP NOW</span></a> -->
+                      
                         <h2 class="text-white">Live and Let Live </h2>
                         <p class="text-white">Jainism teaches harmony, equality, and respect for all living beings.
                             Peace begins when we recognize the soul in everyone.so live and let live</p>
-                        <!-- <a href="#" class="default-btn move-right"><span>GET HELP NOW</span></a> -->
+                       
                     </div>
                 </div>
             </div>
@@ -51,7 +51,6 @@
                         <h2 class="text-white">Non-Violence Is the Highest Religion</h2>
                         <p class="text-white">Follow the path of Ahimsa (non-violence) to bring peace within and around
                             you. True strength lies in compassion and forgiveness.</p>
-                        <!-- <a href="#" class="default-btn move-right"><span>GET HELP NOW</span></a> -->
                     </div>
                 </div>
             </div>
@@ -63,7 +62,6 @@
                         <h2 class="text-white">Religion Can't Divide You And Others</h2>
                         <p class="text-white">Enthusiastically underwhelm quality benefits rather than professional
                             "outside the box" thinking. Distinctively network highly efficient leadership skills</p>
-                        <!-- <a href="#" class="default-btn move-right"><span>GET HELP NOW</span></a> -->
                     </div>
                 </div>
             </div>
@@ -86,17 +84,23 @@
             <div class="col-lg-6 col-12" style="display: flex; align-items: stretch;">
                 <div class="history__image" style="height: 100%; width: 100%; overflow: hidden; position: relative;">
                     <img src="assets/images/gallery/02.jpg" alt="Jainism History"
-                         style="object-fit: cover; height: 100%; width: 100%; border-radius: 8px; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
-                    <!-- 3D effect on hover -->
-                    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.1); border-radius: 8px;"></div>
+                        style="object-fit: cover; height: 100%; width: 100%; border-radius: 8px; box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+
+                    <div
+                        style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.1); border-radius: 8px;">
+                    </div>
                 </div>
+
             </div>
 
             <!-- Right Side Content -->
             <div class="col-lg-6 col-12" style="display: flex; align-items: stretch;">
-                <div class="history__content" style="display: flex; flex-direction: column; justify-content: center; padding: 30px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); height: 100%;">
-                    <h2 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 20px; color: #333;">History of Jainism</h2>
-                    <p style="font-size: 1.1rem; line-height: 1.8; color: #555; font-family: 'Arial', sans-serif; text-align: justify; flex-grow: 1;">
+                <div class="history__content"
+                    style="display: flex; flex-direction: column; justify-content: center; padding: 30px; background-color: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); height: 100%;">
+                    <h2 style="font-size: 2.5rem; font-weight: bold; margin-bottom: 20px; color: #333;">History of
+                        Jainism</h2>
+                    <p
+                        style="font-size: 1.1rem; line-height: 1.8; color: #555; font-family: 'Arial', sans-serif; text-align: justify; flex-grow: 1;">
                         <strong>Expanded History of Jainism in India:</strong><br>
                         Jainism is one of the most ancient religions originating in India, with roots tracing back to
                         the Indus Valley Civilization, where evidence of non-violent practices and spiritual symbolism
@@ -279,44 +283,45 @@
 <div class="event padding--top padding--bottom">
     <div class="container">
         <div class="section__header text-center">
-          <h2>Recent Blog</h2>
-          <p>
-            Enthusiastically underwhelm quality benefits rather than professional outside the box thinking.
-            Distinctively network highly efficient leadership skills.
-          </p>
+            <h2>Recent Blog</h2>
+            <p>
+                Explore our latest posts featuring insightful perspectives, innovative thinking, and meaningful updates.
+                Stay connected with inspiring stories and leadership ideas from the Jain Itihas community.
+            </p>
         </div>
-      
+
+
         <div class="section__wrapper">
-          <div class="row g-4 justify-content-center">
-            <div *ngFor="let blog of blogs" class="col-lg-4 col-sm-6 col-12">
-              <div class="event__item">
-                <div class="event__inner">
-                  <div class="event__thumb">
-                    <a [routerLink]="['/blogDetails', blog.id]">
-                      <img [src]="blog.image" alt="event thumb">
-                    </a>
-                    <div class="event__thumb-date">
-                      <h6>{{ blog.day }}</h6>
-                      <p>{{ blog.month }}</p>
-                    </div>
-                  </div>
-      
-                  <div class="event__content">
-                    <a [routerLink]="['/blogDetails', blog.id]">
-                      <h5>{{ blog.title }}</h5>
-                    </a>
-      
-                    <div class="event__metapost">
-                      <ul class="event__metapost-info">
-                        <!-- <li><i class="far fa-clock"></i> {{ blog.time }}</li>
+            <div class="row g-4 justify-content-center">
+                <div *ngFor="let blog of blogs" class="col-lg-4 col-sm-6 col-12">
+                    <div class="event__item">
+                        <div class="event__inner">
+                            <div class="event__thumb">
+                                <a [routerLink]="['/blogDetails', blog.id]">
+                                    <img [src]="blog.image" alt="event thumb">
+                                </a>
+                                <div class="event__thumb-date">
+                                    <h6>{{ blog.day }}</h6>
+                                    <p>{{ blog.month }}</p>
+                                </div>
+                            </div>
+
+                            <div class="event__content">
+                                <a [routerLink]="['/blogDetails', blog.id]">
+                                    <h5>{{ blog.title }}</h5>
+                                </a>
+
+                                <div class="event__metapost">
+                                    <ul class="event__metapost-info">
+                                        <!-- <li><i class="far fa-clock"></i> {{ blog.time }}</li>
                         <li><i class="fas fa-map-marker-alt"></i> {{ blog.location }}</li> -->
-                      </ul>
-                      <ul class="event__metapost-comentshare">
-                        <li class="event__metapost-coment">
-                          <!-- <i class="far fa-comments"></i> -->
-                          <!-- <a href="#" class="event__metapost-count">{{ blog.comments }}</a> -->
-                        </li>
-                        <!-- <li class="event__metapost-share">
+                                    </ul>
+                                    <ul class="event__metapost-comentshare">
+                                        <li class="event__metapost-coment">
+                                            <!-- <i class="far fa-comments"></i> -->
+                                            <!-- <a href="#" class="event__metapost-count">{{ blog.comments }}</a> -->
+                                        </li>
+                                        <!-- <li class="event__metapost-share">
                           <i class="fas fa-share-alt"></i>
                           <ul>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -325,20 +330,21 @@
                             <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
                           </ul>
                         </li> -->
-                      </ul>
+                                    </ul>
+                                </div>
+
+                                <p>{{ blog.description }}</p>
+                                <a [routerLink]="['/blogDetails', blog.id]" class="default-btn move-right">
+                                    <span>Read More</span> </a>
+                            </div>
+                        </div>
                     </div>
-      
-                    <p>{{ blog.description }}</p>
-                    <a [routerLink]="['/blogDetails', blog.id]" class="default-btn move-right">
-                        <span>Read More</span>        </a>  
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="text-center mt-5">
-        <a routerLink="blog" class="default-btn move-right"><span>View All</span></a>
+        <div class="text-center mt-5">
+            <a routerLink="blog" class="default-btn move-right"><span>View All</span></a>
+        </div>
     </div>
 </div>
 <!-- ================> Event section end here <================== -->

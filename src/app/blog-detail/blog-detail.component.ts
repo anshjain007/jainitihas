@@ -19,7 +19,7 @@ export class BlogDetailComponent {
       "author": "jainItihas",
       "description": "Nestled amidst tranquil surroundings, the Shree 1008 Kesariya Ji Jain Tirth stands as a beacon of spirituality and devotion. This sacred pilgrimage site reflects centuries of Jain heritage, inviting devotees to immerse themselves in prayers, rituals, and the timeless wisdom of Tirthankaras.",
       "content": `
- <h2>* History of Kesariya ji Atishay Kshetra</h2>
+ <h2>History of Kesariya ji Atishay Kshetra</h2>
  <p><b> Rishabhdev temple is situated 65 km away on
 National Highway No. 8, south of Udaipur
 district of Rajasthan. This temple is also called
@@ -27,7 +27,7 @@ Kesariyaji because a lot of saffron is offered on
 the original idol main deity</b></p>
 <img src="../../assets/blog/kesariyaji/temple1.jpg" alt="Kesariya Ji Jain Tirth" class="img-fluid">
 
-<h2>* Idol of Rishbhdev : A Marvel of Sculpture</h2>
+<h2>Idol of Rishbhdev : A Marvel of Sculpture</h2>
 
 <p> <b>The black stone idol of the main deity, first
 Tirthankar 1008 Lord Rishabhdev is 3½ feet
@@ -60,7 +60,7 @@ performing Kalashabhishek of Rishabhdev </p>
 <img src="../../assets/blog/kesariyaji/mainidol1.jpg" alt="Kesariya Ji Jain Tirth" class="img-fluid">
 
 <br><br>
-<h2>* The Significance of 16 Dreams in
+<h2>The Significance of 16 Dreams in
 Main Deity</h2>
 <img src="../../assets/blog/kesariyaji/16dream.jpg" alt="Kesariya Ji Jain Tirth" class="img-fluid">
 
@@ -277,7 +277,7 @@ Swami Digambar Jain Acharya</b></p>
 <img src="../../assets/blog/kesariyaji/mandap.jpg" alt="Kesariya Ji Jain Tirth" class="img-fluid">
 <br><br>
 
-<h2>*Judgments of the Honorable
+<h2>Judgments of the Honorable
 Supreme Court</h2>
 
 <p>An appeal was filed in the Supreme Court against
