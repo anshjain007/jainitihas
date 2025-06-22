@@ -205,7 +205,7 @@ Swami Digambar Jain Acharya</b></p>
 <p>
   <b>The fame and grandeur of the temple and the management and unbroken authority of this temple</b>
   have been with the Digambar Jains in the long history of about 1200 years. The Digambar Jains
-  managed, operated, preserved, and protected it with the teachings of their Bhattarakas.
+  managed, operated, preserved,and protected it with the teachings of their Bhattarakas.
 </p>
 
 <p>
