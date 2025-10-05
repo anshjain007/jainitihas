@@ -18,11 +18,20 @@ export class GalleryService {
         'assets/tirthankars/adinath/01.jpg',
         'assets/tirthankars/adinath/02.jpg',
         'assets/tirthankars/adinath/03.jpg',
+        'assets/tirthankars/adinath/04.jpg',
+        'assets/tirthankars/adinath/05.jpg',
+        'assets/tirthankars/adinath/06.jpg',
+        'assets/tirthankars/adinath/07.jpg',
+        'assets/tirthankars/adinath/08.jpg',
+        'assets/tirthankars/adinath/09.jpg',
+        'assets/tirthankars/adinath/10.jpg',
+        'assets/tirthankars/adinath/11.jpg'
+
       ]
     },
     {
       id: 2,
-      name: 'bahubali',
+      name: 'Bahubali',
       images: [
         'assets/tirthankars/bahubali/01.jpg',
         'assets/tirthankars/bahubali/02.jpg',
@@ -30,7 +39,7 @@ export class GalleryService {
     },
     {
       id: 3,
-      name: 'mahavir',
+      name: 'Mahavira',
       images: [
         'assets/tirthankars/mahavir/01.jpg',
         'assets/tirthankars/mahavir/02.jpg',
@@ -39,7 +48,7 @@ export class GalleryService {
     // Add remaining Tirthankars here similarly
   ];
 
-  constructor() {}
+  constructor() { }
 
   getTirthankars(): Tirthankar[] {
     return this.tirthankars;
