@@ -18,7 +18,6 @@ export class GalleryService {
         'assets/tirthankars/adinath/01.jpg',
         'assets/tirthankars/adinath/02.jpg',
         'assets/tirthankars/adinath/03.jpg',
-        'assets/tirthankars/adinath/04.jpg',
         'assets/tirthankars/adinath/05.jpg',
         'assets/tirthankars/adinath/06.jpg',
         'assets/tirthankars/adinath/07.jpg',
